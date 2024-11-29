@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .gd {
+        background-color: pink;
+        padding: 10px;
+        border-radius: 10px;
+        display: grid;
+        gap: 10px;
+        padding: 15px;
+        grid-template-areas:
+          "item1 item2 item2 item3"
+          "item1 item4 item5 item6 "
+          "item1 item7 item8 item6";
+        grid-template-rows: 100px 100px 100px;
+      }
+
+      .gd div {
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+      }
+
+      .item1 {
+        background-color: antiquewhite;
+        grid-area: item1;
+      }
+      .item2 {
+        background-color: aqua;
+        grid-area: item2;
+      }
+      .item3 {
+        background-color: aquamarine;
+        grid-area: item3;
+      }
+      .item4 {
+        background-color: azure;
+        grid-area: item4;
+      }
+      .item5 {
+        background-color: beige;
+        grid-area: item5;
+      }
+      .item6 {
+        background-color: red;
+        grid-area: item6;
+      }
+      .item7 {
+        background-color: blue;
+        grid-area: item7;
+      }
+      .item8 {
+        background-color: orange;
+        grid-area: item8;
+      }
+
+
+
+      .gd2 {
+        position: relative;
+        top: 100px;
+        padding: 15px;
+        background-color:goldenrod;
+        border-radius: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+          "item1 item2 item3 item4 item5 item6"
+          "item7 item8 item8 item4 item5 item6"
+          "item7 item8 item8 item4 item5 item6     ";
+        grid-template-rows: 100px 100px 100px;
+      }
+
+      .gd2 div {
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+      }
+
+      .item1 {
+        background-color: antiquewhite;
+        grid-area: item1;
+      }
+      .item2 {
+        background-color: aqua;
+        grid-area: item2;
+      }
+      .item3 {
+        background-color: aquamarine;
+        grid-area: item3;
+      }
+      .item4 {
+        background-color: azure;
+        grid-area: item4;
+      }
+      .item5 {
+        background-color: beige;
+        grid-area: item5;
+      }
+      .item6 {
+        background-color: red;
+        grid-area: item6;
+      }
+      .item7 {
+        background-color: blue;
+        grid-area: item7;
+      }
+      .item8 {
+        background-color: orange;
+        grid-area: item8;
+      }
+
+
+      .gd3{
+        position: relative;
+        top: 200px;
+        padding: 10px;
+        background-color:darkorange;
+        border-radius: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+          "item1 item2 item3 "
+          "item4 item6 item6 "
+          "item5 item6 item6 ";
+        grid-template-rows: 100px 100px 100px;
+      }
+
+      .gd3 div {
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+      }
+
+      .item1 {
+        background-color: antiquewhite;
+        grid-area: item1;
+      }
+      .item2 {
+        background-color: aqua;
+        grid-area: item2;
+      }
+      .item3 {
+        background-color: aquamarine;
+        grid-area: item3;
+      }
+      .item4 {
+        background-color: azure;
+        grid-area: item4;
+      }
+      .item5 {
+        background-color: beige;
+        grid-area: item5;
+      }
+      .item6 {
+        background-color: red;
+        grid-area: item6;
+      }
+      
+
+
+    </style>
+  </head>
+  <body>
+    <div class="gd">
+      <div class="item1">one</div>
+      <div class="item2">two</div>
+      <div class="item3">three</div>
+      <div class="item4">four</div>
+      <div class="item5">five</div>
+      <div class="item6">six</div>
+      <div class="item7">seven</div>
+      <div class="item8">eight</div>
+    </div>
+<div class="gd2">
+    <div class="item1">one</div>
+    <div class="item2">two</div>
+    <div class="item3">three</div>
+    <div class="item4">four</div>
+    <div class="item5">five</div>
+    <div class="item6" >six</div>
+    <div class="item7"> seven</div>
+    <div class="item8"> eight</div>
+</div>
+<div class="gd3">
+    <div class="item1">one</div>
+    <div class="item2">two</div>
+    <div class="item3">three</div>
+    <div class="item4">four</div>
+    <div class="item5">five</div>
+    <div class="item6">six</div>
+    </div>
+
+  </body>
+</html>
